@@ -1,0 +1,49 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  line-height: 1.2px;
+}
+
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+}
+
+.hero p {
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+  line-height: 30px;
+}
+
+.description {
+  line-height: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.get-started {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.project-description {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    text-align: center !important;
+  }
+}
