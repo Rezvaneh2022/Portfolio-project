@@ -42,8 +42,32 @@ h2 {
   text-align: center;
 }
 
+.about-h1 {
+  font-size: 64px;
+  line-height: 80px;
+  margin-top: 117px;
+}
+
+.about-p {
+  text-align: left;
+}
+
+.about-img {
+  margin-top: 117px;
+  border-radius: 8px;
+}
+
 @media (max-width: 900px) {
   .project-description {
-    text-align: center !important;
+    text-align: center;
+  }
+
+  .about-h1 {
+    font-size: 40px;
+    line-height: 41px;
+  }
+
+  .about-h2 {
+    font-size: 25px;
   }
 }
