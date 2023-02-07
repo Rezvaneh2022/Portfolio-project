@@ -1,5 +1,5 @@
 :root {
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Playfair Display", serif bold;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -42,10 +42,17 @@ h2 {
   text-align: center;
 }
 
+.content-container {
+  margin-top: 160px;
+}
+
 .about-h1 {
   font-size: 64px;
   line-height: 80px;
-  margin-top: 117px;
+  font-family: var(--);
+}
+.about-h2 {
+  font-family: var(--default-font-family);
 }
 
 .about-p {
@@ -53,8 +60,12 @@ h2 {
 }
 
 .about-img {
-  margin-top: 117px;
   border-radius: 8px;
+  max-width: 50%;
+}
+
+.work-description {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
@@ -62,7 +73,7 @@ h2 {
     text-align: center;
   }
 
-  .about-h1 {
+  .heading-h1 {
     font-size: 40px;
     line-height: 41px;
   }
