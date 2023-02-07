@@ -1,5 +1,5 @@
 :root {
-  --heading-font-family: "Playfair Display", serif bold;
+  --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -47,9 +47,9 @@ h2 {
 }
 
 .about-h1 {
-  font-size: 64px;
-  line-height: 80px;
-  font-family: var(--);
+  font-size: 70px;
+  line-height: 55px;
+  font-family: var(--heading-font-family);
 }
 .about-h2 {
   font-family: var(--default-font-family);
