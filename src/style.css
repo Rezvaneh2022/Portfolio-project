@@ -50,8 +50,9 @@ h2 {
   margin-top: 160px;
 }
 
-.about-h1 {
-  font-size: 70px;
+.heading-h1 {
+  font-size: 64px;
+  font-weight: bold;
   line-height: 55px;
   font-family: var(--heading-font-family);
 }
@@ -72,6 +73,9 @@ h2 {
 .work-description {
   font-size: 14px;
 }
+.contact-p {
+  text-align: left !important;
+}
 
 @media (max-width: 900px) {
   .project-description {
@@ -85,5 +89,8 @@ h2 {
 
   .about-h2 {
     font-size: 25px;
+  }
+  .content {
+    text-align: center;
   }
 }
