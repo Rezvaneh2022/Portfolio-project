@@ -117,6 +117,11 @@ footer .social-links i:hover {
   background-color: var(--branding-color);
 }
 
+footer .open-sourced {
+  margin-top: 10px !important;
+  font-size: smaller;
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
