@@ -138,4 +138,16 @@ footer .open-sourced {
   .content {
     text-align: center;
   }
+  .about-container {
+    text-align: center;
+  }
+  .loading {
+    padding-top: 40px;
+  }
+  .contact-container {
+    text-align: center;
+  }
+  .contact-p {
+    text-align: center !important;
+  }
 }
